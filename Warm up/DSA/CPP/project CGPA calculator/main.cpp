@@ -15,7 +15,7 @@ int main()
     string name;
     int course_num;
     string subject;
-    char grade;
+    string grade;
     manipulateData change;
 
     cout << "Welcome to CGPA calculator: \n";
@@ -33,10 +33,12 @@ int main()
 
     cout << "Subject" << "\t" << "Grade" << endl;
 
-    map<string, char> data = change.getData();
+    map<string, string> data = change.getData();
     for (auto i = data.begin(); i != data.end(); i++)
     {
         cout << i->first << "\t" << i->second << endl;
     }
+
+    change.getCGPA();
     return 0;
 }
