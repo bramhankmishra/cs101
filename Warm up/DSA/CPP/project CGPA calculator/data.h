@@ -1,6 +1,7 @@
 #ifndef data_h
 #define data_h
 #include <string>
+#include <iostream>
 #include <map>
 
 using namespace std;

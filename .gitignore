@@ -1,1 +1,6 @@
 .vscode
+.venv
+a.exe
+test_app.exe
+test.cpp
+test.exe
